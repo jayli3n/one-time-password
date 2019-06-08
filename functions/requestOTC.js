@@ -3,7 +3,7 @@ const twilio = require('./twilio');
 
 module.exports = (req, res) => {
 	// Verify the user provided a phone
-	if (req.body.phone) {
+	if (!req.body.phone) {
 		return res.status(422).send({ error: "Your must provide a phone number" });
 	}
 
