@@ -1,2 +1,2 @@
 # one-time-password
-OTP app with firebase, twilio.
+OTP app with firebase (functions & db), twilio.
